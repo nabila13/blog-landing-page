@@ -313,3 +313,92 @@ body {
 .fourth-content-2 .right h1 {
     margin-left: -8px;
 }
+
+.fourth-content-3 {
+    width: 84%;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url("../images/purple22.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    padding: 3%;
+    border-radius: 20px;
+    height: 350px;
+    overflow: hidden;
+}
+
+.fourth-content-3 .left {
+    display: flex;
+    width: 45%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.fourth-content-3 .left h1 {
+    margin-left: -4px;
+    margin-top: 100px;
+}
+
+.fourth-content-3 .left a {
+    text-decoration: none;
+    width: 130px;
+    padding: 3%;
+    margin-bottom: 50px;
+    color: white;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, darkblue, #4e4ee9, #7a067a);
+}
+
+.fourth-content-3 .right {
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    margin-right: -42px;
+}
+
+.fourth-content-3 .right .right-col-1 {
+    margin-top: -70px;
+}
+
+.fourth-content-3 .right .right-col-2 {
+    margin-bottom: -70px;
+}
+
+.fourth-content-3 .right .right-col-1 img,
+.fourth-content-3 .right .right-col-2 img,
+.fourth-content-3 .right .right-col-3 img {
+    border-radius: 20px;
+    margin-bottom: 3%;
+}
+
+.foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2%;
+    color: aqua;
+}
+
+.foot .third {
+    text-align: left;
+}
+
+.foot .third h1 {
+    margin-left: -5px;
+    background: linear-gradient(to right, #4e4ee9, #ee52ee);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+}
