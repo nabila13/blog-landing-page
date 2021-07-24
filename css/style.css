@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,500&display=swap');
 body {
     margin: 0;
-    background-image: url("./images/dark2.jpg");
+    background-image: url("images/dark2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
